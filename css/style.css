@@ -211,7 +211,7 @@
 #usp .section__column--subtitle { font-size: 1.25em; margin-bottom: 10px;}
 #usp .section__column:hover { background-color: var(--cards-bg-color); }
 #usp .section__columns--cta { text-align: center; }
-usp .section__column--title { font-size: 1.75em; margin-bottom: 20px; }
+#usp .section__column--title { font-size: 1.75em; margin-bottom: 20px; }
 
 .btn {
     border-radius: 30px;
@@ -221,3 +221,24 @@ usp .section__column--title { font-size: 1.75em; margin-bottom: 20px; }
     margin-right: 1.5625em;
     width: fit-content;
 }
+#banner {
+    background-image: url(../images/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 570px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner .section__column--title,
+#banner .section__column--subtitle {
+    color: var(--white-color);
+}
+#banner .section__column
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#banner img { align-self: flex-end; }
